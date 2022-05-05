@@ -1,0 +1,19 @@
+{
+  "name": "coinflip",
+  "version": "1.0.0",
+  "description": "Trying to implement the coinflip game in nodejs along with web3.js API for SOLANA and Phantom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dwarkesh",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/web3.js": "^1.32.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1"
+  }
+}

@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#canvas {
+	position: absolute;
+	background-color: #131313;
+	background-image: url('../assets/img/Ground2.png');
+	background-size: cover;
+	background-position: bottom bottom;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 100%;
+	/*border: 2px solid white;*/
+}
+@media only screen and (max-width: 358px) {
+  #canvas {
+    width: 100%;
+	height: 100%;
+  }
+}
+
+button {
+	font-weight: bold !important;
+	box-shadow: 3px 3px 13px black;
+}
+
+button.btnSol {
+	display: none;
+}
+button#btnReplay {
+	display: none;
+}
+span.balanceText {
+	font-weight: bold;
+	color: red;
+	font-size: 25px;
+}
